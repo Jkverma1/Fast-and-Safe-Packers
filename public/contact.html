@@ -1,6 +1,52 @@
-<template>
-  <!-- Top Menu 1 -->
-  <section class="w3l-top-menu-1">
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Fast and Safe packers and movers is one of the best packers and Movers in haryana,rajasthan,panjab,himachal pradesh,delhi,new delhi and across all the origin in India also we provide our service to all major city of haryana (bhiwani mainly). We invest heavily in giving pleasant packing & moving services at reasonable worth among buyer spending plan. All our worker region unit veteran polite and cautious. We supply customized services for any very migration whether it's local, home grown, or Global." name="description">
+    <meta content="Fast and Safe packers and movers has a wide organization covering every single significant city and metros. We offer a spread of transport offices like Containers, open trucks, vehicle transporter, stage trailers, Car Carriers to suit our clients’ needs and necessities to connect the correspondence hole among us and our clients we will in general have the latest correspondence to be in consistent piece with our clients. Our client care cell is dynamic 24 X 7 and this guarantees our clients that their product region unit in safe hands." name="keywords">
+    <meta name="keywords" content="packers and movers in delhi, packers and movers in faridabad, packers and movers in gurgaon, packers and movers in noida">
+
+    <title> Fast & Safe Packers | Movers </title>
+    <!-- web fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <!-- //web fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="css/style-freedom.css">
+    <script src="https://kit.fontawesome.com/75f4c40f2d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<script src='js/jquery-3.3.1.min.js'></script>
+<script src="js/custom.js"></script>
+
+
+<!-- google analytics tag add here -->
+<!-- Google tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-245221187-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-245221187-1');
+</script>
+
+
+<meta name="robots" content="noindex">
+<body>
+<!-- New toolbar-->
+<link rel="stylesheet" href="css/custom.css">
+
+<!-- Top Menu 1 -->
+<section class="w3l-top-menu-1">
     <div class="top-hd">
       <div class="container">
         <header class="row">
@@ -334,4 +380,64 @@
       <span class="fa fa-angle-up"></span>
     </button>
   </section>
-</template>
+
+  <script src="js/bottom-script.js"></script>
+  <!-- /move top -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+
+<script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+
+<script src="js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+<!-- //footer-28 block -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+
+<!-- Template JavaScript -->
+<script src="js/all.js"></script>
+<script>
+var form = document.getElementById("quotation-form");
+
+async function handleSubmit(event) {
+ event.preventDefault();
+ var status = document.getElementById("quotation-form-report");
+ var data = new FormData(event.target);
+ fetch(event.target.action, {
+   method: form.method,
+   body: data,
+   headers: {
+       'Accept': 'application/json'
+   }
+ }).then(response => {
+   if (response.ok) {
+     status.innerHTML = "Thanks for your submission!";
+     form.reset()
+   } else {
+     response.json().then(data => {
+       if (Object.hasOwn(data, 'errors')) {
+         status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+       } else {
+         status.innerHTML = "Oops! There was a problem submitting your form"
+       }
+     })
+   }
+ }).catch(error => {
+   status.innerHTML = "Oops! There was a problem submitting your form"
+ });
+}
+form.addEventListener("submit", handleSubmit)
+</script>
+
+</body>
+
+</html>
+<!-- // grids block 5 -->
+
+
+
+

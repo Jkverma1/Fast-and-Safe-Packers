@@ -84,7 +84,7 @@
             </li>
           </ul>
           <form class="form-inline">
-            <a class="btn btn-secondary btn-theme" href="/contact">
+            <a class="btn btn-secondary btn-theme">
               <router-link class="text-white" to="/contact"> Get a Quote</router-link>
             </a>
           </form>
@@ -98,8 +98,8 @@
       <div class="container">
         <ul class="breadcrumbs-custom-path">
           <li>
-            <a href="/"
-              >Home
+            <a 
+              ><router-link to="/"> Home</router-link>
               <span class="fa fa-angle-double-right" aria-hidden="true"></span
             ></a>
           </li>
@@ -251,11 +251,11 @@
           <div class="footer-list-29 footer-2">
             <ul>
               <h6 class="footer-title-29">Categories</h6>
-              <li><a href="/services">Airfreight </a></li>
-              <li><a href="/services">Domestic</a></li>
-              <li><a href="/services">International</a></li>
-              <li><a href="/services">Shipping</a></li>
-              <li><a href="/services">Liquids</a></li>
+              <li><a><router-link to="/services"> AirFreight</router-link> </a></li>
+              <li><a><router-link to="/services"> Domestic</router-link></a></li>
+              <li><a><router-link to="/services"> International</router-link></a></li>
+              <li><a><router-link to="/services">Shipping</router-link></a></li>
+              <li><a><router-link to="/services">Liquids</router-link></a></li>
             </ul>
           </div>
 
@@ -263,10 +263,18 @@
           <div class="footer-list-29 footer-4">
             <ul>
               <h6 class="footer-title-29">Quick Links</h6>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/services">Services</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li>
+                <a><router-link to="/"> Home</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/about"> About</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services">Services</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/contact">Contact</router-link></a>
+              </li>
             </ul>
           </div>
         </div>

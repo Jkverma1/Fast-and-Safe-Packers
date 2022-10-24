@@ -57,12 +57,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/">Home</router-link></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/about"
                   >About</router-link
                 ></a
@@ -84,8 +84,10 @@
             </li>
           </ul>
           <form class="form-inline">
-            <a class="btn btn-secondary btn-theme" href="/contact">
-              <router-link class="text-white" to="/contact"> Get a Quote</router-link>
+            <a class="btn btn-secondary btn-theme">
+              <router-link class="text-white" to="/contact">
+                Get a Quote</router-link
+              >
             </a>
           </form>
         </div>
@@ -100,11 +102,15 @@
           <div class="column1">
             <h3 class="tagline mb-3">Get a Free Moving Quote</h3>
 
-            <form action="/" method="Get">
+            <form
+              id="quotation-form"
+              action="https://formspree.io/f/mqkjlbpa"
+              method="POST"
+            >
               <div class="">
                 <input
                   type="text"
-                  name="name"
+                  name="From City"
                   class="form-input"
                   placeholder="From a City or Location"
                 />
@@ -112,7 +118,7 @@
               <div class="">
                 <input
                   type="text"
-                  name="name"
+                  name="To City"
                   class="form-input"
                   placeholder="To a City or Location"
                 />
@@ -129,6 +135,7 @@
                 <input
                   type="email"
                   name="email"
+                  id="form-email"
                   class="form-input"
                   placeholder="Email"
                 />
@@ -143,6 +150,7 @@
               </div>
               <button type="submit" class="btn">Submit</button>
             </form>
+            <div id="quotation-form-report"></div>
           </div>
         </div>
       </div>
@@ -315,8 +323,8 @@
               Book Us through telephone medium or anyhow you want and we start
               your process instantly.
             </p>
-            <a href="/services" class="red mt-3"
-              >Read More <span class="fa fa-angle-right pl-1"></span
+            <a class="red mt-3"
+              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-sm-0 mt-5">
@@ -328,8 +336,8 @@
               We provide High Quality packaging and keeping the safety of your
               products.
             </p>
-            <a href="/services" class="red mt-3"
-              >Read More <span class="fa fa-angle-right pl-1"></span
+            <a class="red mt-3"
+              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-lg-0 mt-5">
@@ -341,8 +349,8 @@
               We take your goods from your door and move them to our basement
               for arrangements.
             </p>
-            <a href="/services" class="red mt-3"
-              >Read More <span class="fa fa-angle-right pl-1"></span
+            <a class="red mt-3"
+              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-lg-0 mt-5">
@@ -354,8 +362,8 @@
               We deliver your goods at your location within time and quality
               assurance.
             </p>
-            <a href="/services" class="red mt-3"
-              >Read More <span class="fa fa-angle-right pl-1"></span
+            <a class="red mt-3"
+              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
         </div>
@@ -448,8 +456,8 @@
                 <span class="fa fa-calendar"></span> January 18, 2020
               </li>
               <li>
-                <a href="/services"
-                  ><span class="fa fa-arrow-circle-right"></span> Read More</a
+                <a
+                  ><span class="fa fa-arrow-circle-right"></span><router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>
@@ -468,8 +476,8 @@
                 <span class="fa fa-calendar"></span> January 18, 2020
               </li>
               <li>
-                <a href="/services"
-                  ><span class="fa fa-arrow-circle-right"></span> Read More</a
+                <a
+                  ><span class="fa fa-arrow-circle-right"></span> <router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>
@@ -490,8 +498,8 @@
                 <span class="fa fa-calendar"></span> January 18, 2020
               </li>
               <li>
-                <a href="/services"
-                  ><span class="fa fa-arrow-circle-right"></span> Read More</a
+                <a
+                  ><span class="fa fa-arrow-circle-right"></span> <router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>
@@ -541,11 +549,21 @@
           <div class="footer-list-29 footer-2">
             <ul>
               <h6 class="footer-title-29">Categories</h6>
-              <li><a href="/services">Airfreight </a></li>
-              <li><a href="/services">Domestic</a></li>
-              <li><a href="/services">International</a></li>
-              <li><a href="/services">Shipping</a></li>
-              <li><a href="/services">Liquids</a></li>
+              <li>
+                <a><router-link to="/services"> AirFreight</router-link> </a>
+              </li>
+              <li>
+                <a><router-link to="/services"> Domestic</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services"> International</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services">Shipping</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services">Liquids</router-link></a>
+              </li>
             </ul>
           </div>
 
@@ -553,10 +571,18 @@
           <div class="footer-list-29 footer-4">
             <ul>
               <h6 class="footer-title-29">Quick Links</h6>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/services">Services</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li>
+                <a><router-link to="/"> Home</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/about"> About</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services">Services</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/contact">Contact</router-link></a>
+              </li>
             </ul>
           </div>
         </div>

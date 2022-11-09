@@ -177,7 +177,7 @@
           <!-- contact form -->
           <div class="contacts12-main col-lg-7 pr-lg-5 pr-3">
             <form
-              action="https://formspree.io/f/mlevlnjg"
+              action="https://formsubmit.co/fastandsafepackersmoversggn@gmail.com"
               method="POST"
               class="main-input"
             >
@@ -400,38 +400,6 @@
 
 <!-- Template JavaScript -->
 <script src="js/all.js"></script>
-<script>
-var form = document.getElementById("quotation-form");
-
-async function handleSubmit(event) {
- event.preventDefault();
- var status = document.getElementById("quotation-form-report");
- var data = new FormData(event.target);
- fetch(event.target.action, {
-   method: form.method,
-   body: data,
-   headers: {
-       'Accept': 'application/json'
-   }
- }).then(response => {
-   if (response.ok) {
-     status.innerHTML = "Thanks for your submission!";
-     form.reset()
-   } else {
-     response.json().then(data => {
-       if (Object.hasOwn(data, 'errors')) {
-         status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-       } else {
-         status.innerHTML = "Oops! There was a problem submitting your form"
-       }
-     })
-   }
- }).catch(error => {
-   status.innerHTML = "Oops! There was a problem submitting your form"
- });
-}
-form.addEventListener("submit", handleSubmit)
-</script>
 
 </body>
 

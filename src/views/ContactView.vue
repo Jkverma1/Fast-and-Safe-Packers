@@ -131,7 +131,7 @@
           <!-- contact form -->
           <div class="contacts12-main col-lg-7 pr-lg-5 pr-3">
             <form
-              action="https://formspree.io/f/mlevlnjg"
+              action="https://formsubmit.co/fastandsafepackersmoversggn@gmail.com"
               method="POST"
               class="main-input"
             >

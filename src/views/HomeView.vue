@@ -101,10 +101,13 @@
           <div class="column2"></div>
           <div class="column1">
             <h3 class="tagline mb-3">Get a Free Moving Quote</h3>
-            <!-- action="https://formspree.io/f/mqkjlbpa" -->
-            <form id="quotation-form" data-netlify="true" method="POST">
+
+            <form
+              id="quotation-form"
+              action="https://formsubmit.co/fastandsafepackersmoversggn@gmail.com"
+              method="POST"
+            >
               <div class="">
-                <input type="hidden" name="form-name" value="contact" />
                 <input
                   type="text"
                   name="From City"
@@ -144,9 +147,6 @@
                   class="form-input"
                   placeholder="Phone"
                 />
-              </div>
-              <div data-netlify-recaptcha="true">
-                <input type="hidden" name="form-name" value="name_of_my_form" />
               </div>
               <button type="submit" class="btn">Submit</button>
             </form>
@@ -324,8 +324,7 @@
               your process instantly.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link>
-              <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-sm-0 mt-5">
@@ -338,8 +337,7 @@
               products.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link>
-              <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-lg-0 mt-5">
@@ -352,8 +350,7 @@
               for arrangements.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link>
-              <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-lg-0 mt-5">
@@ -366,8 +363,7 @@
               assurance.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link>
-              <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
         </div>
@@ -461,8 +457,7 @@
               </li>
               <li>
                 <a
-                  ><span class="fa fa-arrow-circle-right"></span
-                  ><router-link to="/services">Read More</router-link></a
+                  ><span class="fa fa-arrow-circle-right"></span><router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>
@@ -482,8 +477,7 @@
               </li>
               <li>
                 <a
-                  ><span class="fa fa-arrow-circle-right"></span>
-                  <router-link to="/services">Read More</router-link></a
+                  ><span class="fa fa-arrow-circle-right"></span> <router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>
@@ -505,8 +499,7 @@
               </li>
               <li>
                 <a
-                  ><span class="fa fa-arrow-circle-right"></span>
-                  <router-link to="/services">Read More</router-link></a
+                  ><span class="fa fa-arrow-circle-right"></span> <router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>

@@ -57,26 +57,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/">Home</router-link></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/about"
                   >About</router-link
                 ></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/services"
                   >Services</router-link
                 ></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/contact"
                   >Contact</router-link
                 ></a
@@ -85,7 +85,9 @@
           </ul>
           <form class="form-inline">
             <a class="btn btn-secondary btn-theme">
-              <router-link class="text-white" to="/contact"> Get a Quote</router-link>
+              <router-link class="text-white" to="/contact">
+                Get a Quote</router-link
+              >
             </a>
           </form>
         </div>
@@ -98,7 +100,7 @@
       <div class="container">
         <ul class="breadcrumbs-custom-path">
           <li>
-            <a 
+            <a
               ><router-link to="/"> Home</router-link>
               <span class="fa fa-angle-double-right" aria-hidden="true"></span
             ></a>
@@ -140,23 +142,23 @@
                 nulla pariatur elit voluptate velit.
               </p>
               <ul class="project-list mt-3">
-                <li><span class="fa fa-check"></span>  We use ecofriendly
-              materials only</li>
                 <li>
-                  <span class="fa fa-check"></span> High Professional &
-              Ethical Standards
+                  <span class="fa fa-check"></span> We use ecofriendly materials
+                  only
+                </li>
+                <li>
+                  <span class="fa fa-check"></span> High Professional & Ethical
+                  Standards
                 </li>
                 <li>
                   <span class="fa fa-check"></span> Strive for Continuous
-              Process Improvement
+                  Process Improvement
                 </li>
                 <li>
                   <span class="fa fa-check"></span> Exceeding the expectations
-              of our Clients
+                  of our Clients
                 </li>
-                <li>
-                  <span class="fa fa-check"></span> View Our Services
-                </li>
+                <li><span class="fa fa-check"></span> View Our Services</li>
               </ul>
             </div>
           </div>
@@ -200,12 +202,11 @@
             timeframe packed item.
           </p>
           <p>
-            We are committed and eminent online reference stage to discover
-                a rundown of packers and movers in India and abroad. Intending
-                to help individuals track down their appropriate packers and
-                movers for their migration needs, we offer a vast scope of
-                family, corporate, business moving administrations in different
-                urban areas in India.
+            We are committed and eminent online reference stage to discover a
+            rundown of packers and movers in India and abroad. Intending to help
+            individuals track down their appropriate packers and movers for
+            their migration needs, we offer a vast scope of family, corporate,
+            business moving administrations in different urban areas in India.
           </p>
         </div>
       </div>
@@ -225,7 +226,8 @@
               We have our own fleet of transport to take-up the forwarding on
               top priority basis. Nevertheless to say that all the goods are
               covered with transit insurance.
-            </p><br />
+            </p>
+            <br />
             <p>
               Plot No.860, Near Government Boys School Barthal Village, Dwarka
               Sec-26, Delhi, India
@@ -251,11 +253,21 @@
           <div class="footer-list-29 footer-2">
             <ul>
               <h6 class="footer-title-29">Categories</h6>
-              <li><a><router-link to="/services"> AirFreight</router-link> </a></li>
-              <li><a><router-link to="/services"> Domestic</router-link></a></li>
-              <li><a><router-link to="/services"> International</router-link></a></li>
-              <li><a><router-link to="/services">Shipping</router-link></a></li>
-              <li><a><router-link to="/services">Liquids</router-link></a></li>
+              <li>
+                <a><router-link to="/services"> AirFreight</router-link> </a>
+              </li>
+              <li>
+                <a><router-link to="/services"> Domestic</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services"> International</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services">Shipping</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services">Liquids</router-link></a>
+              </li>
             </ul>
           </div>
 

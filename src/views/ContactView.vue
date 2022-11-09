@@ -58,26 +58,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/">Home</router-link></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/about"
                   >About</router-link
                 ></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/services"
                   >Services</router-link
                 ></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/contact"
                   >Contact</router-link
                 ></a
@@ -141,7 +141,6 @@
                   placeholder="Name"
                   name="Name"
                   id="w3lName"
-                  required=""
                 />
               </div>
               <div class="top-inputs">
@@ -150,7 +149,6 @@
                   name="email"
                   placeholder="Email"
                   id="w3lSender"
-                  required=""
                 />
               </div>
               <input
@@ -158,13 +156,11 @@
                 placeholder="Phone Number"
                 name="Phone Number"
                 id="w3lName"
-                required=""
               />
               <textarea
                 placeholder="Message"
                 name="Message"
                 id="w3lMessage"
-                required=""
               ></textarea>
               <div class="text-right">
                 <button type="submit" class="btn btn-theme2">Submit Now</button>

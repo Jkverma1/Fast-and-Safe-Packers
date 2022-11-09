@@ -57,26 +57,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/">Home</router-link></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/about"
                   >About</router-link
                 ></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/services"
                   >Services</router-link
                 ></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/contact"
                   >Contact</router-link
                 ></a
@@ -85,7 +85,9 @@
           </ul>
           <form class="form-inline">
             <a class="btn btn-secondary btn-theme">
-              <router-link class="text-white" to="/contact"> Get a Quote</router-link>
+              <router-link class="text-white" to="/contact">
+                Get a Quote</router-link
+              >
             </a>
           </form>
         </div>
@@ -98,7 +100,7 @@
       <div class="container">
         <ul class="breadcrumbs-custom-path">
           <li>
-            <a 
+            <a
               ><router-link to="/"> Home</router-link>
               <span class="fa fa-angle-double-right" aria-hidden="true"></span
             ></a>
@@ -128,11 +130,9 @@
 
         <div class="fea-gd-vv text-center row mt-5 pt-3">
           <div class="float-top col-lg-4 col-md-6">
-            <a  
-              ><img src="images/g1.jpg" class="img-responsive" alt=""
-            /></a>
+            <a><img src="images/g1.jpg" class="img-responsive" alt="" /></a>
             <div class="float-lt feature-gd">
-              <h3><a  >Corporate Relocation</a></h3>
+              <h3><a>Corporate Relocation</a></h3>
               <p>
                 We are committed and eminent online reference stage to discover
                 a rundown of packers and movers in India and abroad. Intending
@@ -142,16 +142,15 @@
                 urban areas in India.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link>
+                <span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
           <div class="float-top col-lg-4 col-md-6 mt-md-0 mt-5">
-            <a  
-              ><img src="images/g2.jpg" class="img-responsive" alt=""
-            /></a>
+            <a><img src="images/g2.jpg" class="img-responsive" alt="" /></a>
             <div class="float-lt feature-gd">
-              <h3><a  >Door to Door Service</a></h3>
+              <h3><a>Door to Door Service</a></h3>
               <p>
                 Our organizations have the experience and aptitude for dealing
                 with your vehicle transportation in a protected and expert way
@@ -160,16 +159,15 @@
                 a vehicle transporter
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link>
+                <span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
           <div class="float-top col-lg-4 col-md-6 mt-lg-0 mt-5">
-            <a  
-              ><img src="images/g3.jpg" class="img-responsive" alt=""
-            /></a>
+            <a><img src="images/g3.jpg" class="img-responsive" alt="" /></a>
             <div class="float-lt feature-gd">
-              <h3><a  >Household Moving</a></h3>
+              <h3><a>Household Moving</a></h3>
               <p>
                 Warehousing additionally assists with keeping a consistent
                 stockpile of crude materials to the assembling plants. The
@@ -178,16 +176,15 @@
                 financially savvy way.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link>
+                <span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
           <div class="float-top col-lg-4 col-md-6 mt-5">
-            <a  
-              ><img src="images/g4.jpg" class="img-responsive" alt=""
-            /></a>
+            <a><img src="images/g4.jpg" class="img-responsive" alt="" /></a>
             <div class="float-lt feature-gd">
-              <h3><a  >Moving Locally</a></h3>
+              <h3><a>Moving Locally</a></h3>
               <p>
                 We provide access to an integrated network of air freight that
                 give you the widest range of air cargo choices – all without
@@ -196,16 +193,15 @@
                 air carrier, eliminating waste and reducing expenses.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link><span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link
+                ><span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
           <div class="float-top col-lg-4 col-md-6 mt-5">
-            <a  
-              ><img src="images/g5.jpg" class="img-responsive" alt=""
-            /></a>
+            <a><img src="images/g5.jpg" class="img-responsive" alt="" /></a>
             <div class="float-lt feature-gd">
-              <h3><a  >Transportation Service</a></h3>
+              <h3><a>Transportation Service</a></h3>
               <p>
                 Undeniable degree of safety and diminished danger of burglary
                 and harm. Shipping via Cargo offers the benefit of a significant
@@ -213,16 +209,15 @@
                 are firmly overseen.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link>
+                <span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
           <div class="float-top col-lg-4 col-md-6 mt-5">
-            <a  
-              ><img src="images/g7.jpg" class="img-responsive" alt=""
-            /></a>
+            <a><img src="images/g7.jpg" class="img-responsive" alt="" /></a>
             <div class="float-lt feature-gd">
-              <h3><a  >Trustworthy Service</a></h3>
+              <h3><a>Trustworthy Service</a></h3>
               <p>
                 In an increasingly complex world, keeping track of all your
                 shipments around the world is not simple. The right tools can
@@ -230,7 +225,8 @@
                 few clicks.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link><span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link
+                ><span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
@@ -259,14 +255,15 @@
               <span class="fa fa-file-text-o" aria-hidden="true"></span>
             </div>
             <div class="icon-info">
-              <h5><a  >Residential Movers</a></h5>
+              <h5><a>Residential Movers</a></h5>
               <p>
                 We design and plan out your office area, mechanical business and
                 task moving, Arrange the position visit with Mahindra, so our
                 expert can build up your necessities.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link><span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link
+                ><span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
@@ -275,7 +272,7 @@
               <span class="fa fa-laptop" aria-hidden="true"></span>
             </div>
             <div class="icon-info">
-              <h5><a  >Packaging</a></h5>
+              <h5><a>Packaging</a></h5>
               <p>
                 We likewise keep adequate measures of expert packing assets
                 within reach. Having recently experienced our greatness control,
@@ -283,7 +280,8 @@
                 any office movement, in spite of size.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link><span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link
+                ><span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
@@ -292,13 +290,14 @@
               <span class="fa fa-clone" aria-hidden="true"></span>
             </div>
             <div class="icon-info">
-              <h5><a  >Commercial Movers</a></h5>
+              <h5><a>Commercial Movers</a></h5>
               <p>
                 We provies the Residencial packing and Mover Service where we
                 help to these peoples for House Shifting Service.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link><span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link
+                ><span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
@@ -307,14 +306,15 @@
               <span class="fa fa-bullseye" aria-hidden="true"></span>
             </div>
             <div class="icon-info">
-              <h5><a  >Storage</a></h5>
+              <h5><a>Storage</a></h5>
               <p>
                 We provies the Residencial packing and Mover Service where we
                 help to these peoples for House Shifting Service.Find your
                 relocation service from trusted relocation services in India.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link><span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link
+                ><span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
@@ -323,7 +323,7 @@
               <span class="fa fa-cog" aria-hidden="true"></span>
             </div>
             <div class="icon-info">
-              <h5><a  >Furniture Rebinding</a></h5>
+              <h5><a>Furniture Rebinding</a></h5>
               <p>
                 The trucking organizations are very much positioned and clever
                 to offer start to finish pressing, stockpiling and vehicle
@@ -331,7 +331,8 @@
                 We can also optimize your packaging, and so much more.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link><span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link
+                ><span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
@@ -340,7 +341,7 @@
               <span class="fa fa-truck" aria-hidden="true"></span>
             </div>
             <div class="icon-info">
-              <h5><a  >Recycling</a></h5>
+              <h5><a>Recycling</a></h5>
               <p>
                 The trucking organizations are very much positioned and clever
                 to offer start to finish pressing, moving, stockpiling and
@@ -348,7 +349,8 @@
                 rates.
               </p>
               <a class="red mt-3"
-                ><router-link to="/serviceDetail">Read More</router-link><span class="fa fa-angle-right pl-1"></span
+                ><router-link to="/serviceDetail">Read More</router-link
+                ><span class="fa fa-angle-right pl-1"></span
               ></a>
             </div>
           </div>
@@ -398,11 +400,21 @@
           <div class="footer-list-29 footer-2">
             <ul>
               <h6 class="footer-title-29">Categories</h6>
-              <li><a><router-link to="/services"> AirFreight</router-link> </a></li>
-              <li><a><router-link to="/services"> Domestic</router-link></a></li>
-              <li><a><router-link to="/services"> International</router-link></a></li>
-              <li><a><router-link to="/services">Shipping</router-link></a></li>
-              <li><a><router-link to="/services">Liquids</router-link></a></li>
+              <li>
+                <a><router-link to="/services"> AirFreight</router-link> </a>
+              </li>
+              <li>
+                <a><router-link to="/services"> Domestic</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services"> International</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services">Shipping</router-link></a>
+              </li>
+              <li>
+                <a><router-link to="/services">Liquids</router-link></a>
+              </li>
             </ul>
           </div>
 

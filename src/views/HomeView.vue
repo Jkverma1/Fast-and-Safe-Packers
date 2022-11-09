@@ -69,14 +69,14 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/services"
                   >Services</router-link
                 ></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/contact"
                   >Contact</router-link
                 ></a
@@ -102,11 +102,7 @@
           <div class="column1">
             <h3 class="tagline mb-3">Get a Free Moving Quote</h3>
 
-            <form
-              id="quotation-form"
-              action="https://formspree.io/f/mqkjlbpa"
-              method="POST"
-            >
+            <form id="quotation-form" action="POST" data-netlify="true">
               <div class="">
                 <input
                   type="text"
@@ -147,6 +143,9 @@
                   class="form-input"
                   placeholder="Phone"
                 />
+              </div>
+              <div class="field">
+                <div data-netlify-recaptcha="true"></div>
               </div>
               <button type="submit" class="btn">Submit</button>
             </form>
@@ -324,7 +323,8 @@
               your process instantly.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link>
+              <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-sm-0 mt-5">
@@ -337,7 +337,8 @@
               products.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link>
+              <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-lg-0 mt-5">
@@ -350,7 +351,8 @@
               for arrangements.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link>
+              <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-lg-0 mt-5">
@@ -363,7 +365,8 @@
               assurance.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link>
+              <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
         </div>
@@ -457,7 +460,8 @@
               </li>
               <li>
                 <a
-                  ><span class="fa fa-arrow-circle-right"></span><router-link to="/services">Read More</router-link></a
+                  ><span class="fa fa-arrow-circle-right"></span
+                  ><router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>
@@ -477,7 +481,8 @@
               </li>
               <li>
                 <a
-                  ><span class="fa fa-arrow-circle-right"></span> <router-link to="/services">Read More</router-link></a
+                  ><span class="fa fa-arrow-circle-right"></span>
+                  <router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>
@@ -499,7 +504,8 @@
               </li>
               <li>
                 <a
-                  ><span class="fa fa-arrow-circle-right"></span> <router-link to="/services">Read More</router-link></a
+                  ><span class="fa fa-arrow-circle-right"></span>
+                  <router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>

@@ -101,9 +101,10 @@
           <div class="column2"></div>
           <div class="column1">
             <h3 class="tagline mb-3">Get a Free Moving Quote</h3>
-
-            <form id="quotation-form" action="POST" data-netlify="true">
+            <!-- action="https://formspree.io/f/mqkjlbpa" -->
+            <form id="quotation-form" data-netlify="true" method="POST">
               <div class="">
+                <input type="hidden" name="form-name" value="contact" />
                 <input
                   type="text"
                   name="From City"
@@ -144,8 +145,8 @@
                   placeholder="Phone"
                 />
               </div>
-              <div class="field">
-                <div data-netlify-recaptcha="true"></div>
+              <div data-netlify-recaptcha="true">
+                <input type="hidden" name="form-name" value="name_of_my_form" />
               </div>
               <button type="submit" class="btn">Submit</button>
             </form>

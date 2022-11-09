@@ -162,6 +162,7 @@
                 name="Message"
                 id="w3lMessage"
               ></textarea>
+              <input type="hidden" name="_captcha" value="false">
               <div class="text-right">
                 <button type="submit" class="btn btn-theme2">Submit Now</button>
               </div>

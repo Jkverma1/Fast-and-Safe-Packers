@@ -148,6 +148,7 @@
                   placeholder="Phone"
                 />
               </div>
+              <input type="hidden" name="_captcha" value="false">
               <button type="submit" class="btn">Submit</button>
             </form>
             <div id="quotation-form-report"></div>

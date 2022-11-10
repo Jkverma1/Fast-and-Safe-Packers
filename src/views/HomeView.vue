@@ -129,6 +129,7 @@
                   name="name"
                   class="form-input"
                   placeholder="Your Name"
+                  required
                 />
               </div>
               <div class="">
@@ -138,6 +139,7 @@
                   id="form-email"
                   class="form-input"
                   placeholder="Email"
+                  required
                 />
               </div>
               <div class="">
@@ -146,6 +148,7 @@
                   name="phone"
                   class="form-input"
                   placeholder="Phone"
+                  required
                 />
               </div>
               <input type="hidden" name="_captcha" value="false">

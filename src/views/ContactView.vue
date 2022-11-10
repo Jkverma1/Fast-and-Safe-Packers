@@ -141,6 +141,7 @@
                   placeholder="Name"
                   name="Name"
                   id="w3lName"
+                  required
                 />
               </div>
               <div class="top-inputs">
@@ -149,6 +150,7 @@
                   name="email"
                   placeholder="Email"
                   id="w3lSender"
+                  required
                 />
               </div>
               <input
@@ -156,6 +158,7 @@
                 placeholder="Phone Number"
                 name="Phone Number"
                 id="w3lName"
+                required
               />
               <textarea
                 placeholder="Message"

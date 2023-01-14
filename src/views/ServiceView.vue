@@ -443,8 +443,20 @@
             <a href="https://jatinsoni.in">Jatin Kumar</a>
           </p>
           <ul class="list-btm-29">
-            <li><a href="#link">Privacy policy</a></li>
-            <li><a href="#link">Terms of service</a></li>
+            <li>
+              <a
+                ><router-link to="/privacyPolicy"
+                  >Privacy policy</router-link
+                ></a
+              >
+            </li>
+            <li>
+              <a
+                ><router-link to="/termsCondition"
+                  >Terms of service</router-link
+                ></a
+              >
+            </li>
           </ul>
         </div>
       </div>

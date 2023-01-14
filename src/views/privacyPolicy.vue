@@ -42,7 +42,6 @@
         <a class="navbar-brand" href="/"
           ><span class="fa fa-truck"></span>Fast & Safe</a
         >
-
         <button
           class="navbar-toggler"
           type="button"
@@ -97,7 +96,7 @@
   </section>
   <!-- inner banner -->
   <section class="w3l-inner-banner-main">
-    <div class="about-inner">
+    <div class="about-inner ser-1">
       <div class="container">
         <ul class="breadcrumbs-custom-path">
           <li>
@@ -106,134 +105,78 @@
               <span class="fa fa-angle-double-right" aria-hidden="true"></span
             ></a>
           </li>
-          <li class="active">About</li>
+          <li class="active">Services</li>
         </ul>
       </div>
     </div>
   </section>
   <!-- //covers -->
-  <!-- features-4 block -->
-  <section class="w3l-index1" id="about">
-    <div class="calltoaction-20 py-5 editContent">
+  <section class="w3l-features-8">
+    <!-- /features -->
+    <div class="features py-5" id="services">
       <div class="container py-md-3">
         <div class="heading text-center mx-auto">
-          <h3 class="head">About Us</h3>
-          <p class="my-3 head">
-            Fast and Safe Packers & Movers offers both neighbourhood home moving
-            assistance, just as significant distance pressing and moving
-            administrations for a wide range of family merchandise, office
-            products and other business and mechanical products.
+          <h3 class="head">Privacy Policy</h3>
+          <p class="my-3 head text-left">
+            We care for your privacy. Hence, we follow a firm privacy policy to
+            use the collected data for a particular purpose. We never use or
+            communicate your details to anybody for any other purposes. Fast &
+            Safe Packers & Movers demands your whereabouts for the reason that
+            you know well. We store them with us and identify the intention to
+            use it. We thus make sole use of them to fulfil the objectives.
+            Also, we take your consent for any change or modify your details. We
+            are stringent in following this policy throughout our working
+            process. Fast & Safe Packers and Movers abide by every law in using
+            such information. <br />
+            <br />
+            <b>a)</b> Fast & Safe Packers and Movers only keep your personal
+            information upto the use of it. Then they are removed from our
+            database. <br />
+            <b>b)</b> Everytime Fast & Safe Packers & Movers collect your
+            personal information by following the laws and fair means. We
+            collect them directly from the concerned person only. <br />
+            <b>c)</b> We request our customers to provide us with the correct
+            information that is relevant for the purpose. Our motto is to use
+            them for their benefits. <br />
+            <b>d)</b> Fast & Safe Packers and Movers take all the necessary
+            means to protect your information from any disclosure or
+            unauthorised use by any other apart from us. <br />
+            <b>e)</b> We also remain transparent about our policies to our
+            customers. Fast & Safe Packers & Movers is committed to pleasing
+            them hence welcome any suggestion from your end. <br />
+            <b>f)</b> Fast & Safe Packers & Movers focus on repeated business.
+            Hence, we are keen to maintain our brand in services and conducts
+            towards our clients. Our reputation is a fruit of persistent efforts
+            of long years. <br />
+            <br />
+            <b>Other Policies :</b>
+            Fast & Safe Packers and Movers follows a few firm steps in the
+            execution of every consignment. As customers’ satisfaction is our
+            goal, we never deviate from them. Hence, we stress on proper
+            planning. Working Procedures : We proceed step by step to the
+            ultimate goal. Our trained executives reach your place to plan the
+            job as a whole. You can clear your every doubt at this time. We
+            negotiate well with our customised rates. Fast & Safe Packers &
+            Movers do not compromise with the service quality and try to be
+            pocket-friendly all the time. Hence people always think of us in
+            their any need of shifting. Payment & Billing Terms : With the
+            reasonable charges, we are also open in our payment terms. We are
+            equipped with all the modern methods of payment; hence you need not
+            carry cash always. You can pay us a 50% advance for the job and rest
+            after the completion. Many times customers pay the total bill in
+            advance also. We never distract from our commitments after getting
+            the whole amount in advance. We keep every monetary transaction
+            transparent and care for your trust on us. Insurance Claim : The
+            matter of transit or warehouse insurance is one of the reasons for
+            our popularity in the market of packers and movers. We guide our
+            customers in taking the proper insurance as per their needs. Here,
+            we follow the fast settlement of any claims. Many time we have
+            settled claims then and there. We suggest to take insurance coverage
+            before your every move. It gives peace of mind for a little extra
+            cost. Thus, we proceed with you to your new destination. We end with
+            a smile of happiness in your face and maintain the relationship thus
+            built.
           </p>
-        </div>
-        <div class="calltoaction-20-content row mt-5 pt-3">
-          <div class="column ccont-left col-lg-6">
-            <img src="images/g9.jpg" class="img-responsive" alt="" />
-          </div>
-
-          <div
-            class="column center-align-self col-lg-6 mt-lg-0 mt-4 pl-lg-5 pl-3"
-          >
-            <h5 class="editContent">Safe Domestic Shifting</h5>
-            <p class="more-gap editContent">
-              Fast and Safe Packers & Movers offers both neighbourhood home
-              moving assistance, just as significant distance pressing and
-              moving administrations for a wide range of family merchandise,
-              office products and other business and mechanical products.
-            </p>
-            <li>
-              <span class="fa fa-thumbs-o-up"></span> We use ecofriendly
-              materials only
-            </li>
-            <li>
-              <span class="fa fa-thumbs-o-up"></span> High Professional &
-              Ethical Standards
-            </li>
-            <li>
-              <span class="fa fa-thumbs-o-up"></span> Strive for Continuous
-              Process Improvement
-            </li>
-            <li>
-              <span class="fa fa-thumbs-o-up"></span> Exceeding the expectations
-              of our Clients
-            </li>
-            <a class="theme-button btn mt-4"
-              ><router-link class="text-white" to="/services"
-                >View Our Services</router-link
-              ></a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- features-4 block -->
-  <section class="w3l-features-7">
-    <!-- /features -->
-    <div class="features py-5" id="features">
-      <div class="container py-md-3 my-md-4">
-        <div class="heading text-center mx-auto">
-          <h3 class="head">Why Choose Us</h3>
-          <p class="my-3 head">
-            We Assure Shift, is an online search portal for finding professional
-            and reliable relocation service providers. We act as a connecting
-            link between customers having packing, moving, logistics, or storage
-            needs with companies near your location providing those at genuine
-            rates. We have listed and arranged all relocation companies for your
-            convenience according to cheap and best service providers.
-          </p>
-        </div>
-
-        <div class="fea-gd-vv row mt-5 pt-3">
-          <div class="feature-gd-left col-lg-4 pr-lg-5 pr-3">
-            <h4>Why Packers & Movers?</h4>
-            <h6>Transporting-Save time & money</h6>
-            <p>
-              We offer really quality service with standard packing material,
-              logistics, and professionals. But as in the rush of search engine
-              ranking many quality service providers can't reach you. Also it's
-              hard to get customer feedback, rating and overview of all trusted
-              companies at one place. There are a lot more problem people face
-              when looking for a reliable packers and movers.
-            </p>
-          </div>
-          <div class="feature-gd-right row col-lg-8 mt-lg-0 mt-5">
-            <div class="float-lt feature-gd col-sm-6">
-              <div class="icon">
-                <span class="fa fa-file-text-o" aria-hidden="true"></span>
-              </div>
-              <div class="icon-info">
-                <h5>Art of Warehouse</h5>
-                <p>Safe Storage Solutions</p>
-              </div>
-            </div>
-            <div class="float-mid feature-gd col-sm-6">
-              <div class="icon">
-                <span class="fa fa-laptop" aria-hidden="true"></span>
-              </div>
-              <div class="icon-info">
-                <h5>Safe Storage Solutions</h5>
-                <p>Latest Packaging Materials</p>
-              </div>
-            </div>
-            <div class="float-rt feature-gd col-sm-6">
-              <div class="icon">
-                <span class="fa fa-clone" aria-hidden="true"></span>
-              </div>
-              <div class="icon-info">
-                <h5>Latest Packaging Materials</h5>
-                <p>Quickest Service by Road</p>
-              </div>
-            </div>
-            <div class="float-lt feature-gd col-sm-6">
-              <div class="icon">
-                <span class="fa fa-bullseye" aria-hidden="true"></span>
-              </div>
-              <div class="icon-info">
-                <h5>Quickest Service by Road</h5>
-                <p>Free Domestic Shipping</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -319,7 +262,7 @@
         </div>
         <div class="d-grid grid-col-2 bottom-copies">
           <p class="copy-footer-29">
-            © 2022 Packers. All rights reserved | Designed by
+            © 2020 Packers. All rights reserved | Designed by
             <a href="https://jatinsoni.in">Jatin Kumar</a>
           </p>
           <ul class="list-btm-29">

@@ -144,6 +144,10 @@
   margin-top: 16px;
 }
 
+.navbar-logo {
+  width: 120px;
+}
+
 @media (max-width: 992px) {
   #w3lDemoBar.w3l-demo-bar a.desktop-mode {
     display: none;

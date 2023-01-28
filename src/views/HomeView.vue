@@ -40,8 +40,8 @@
     <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
       <div class="container">
         <a class="navbar-brand" href="/"
-          ><span class="fa fa-truck"></span>Fast & Safe</a
-        >
+          ><img class="navbar-logo" src="images/logo.png" alt=""
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -151,7 +151,7 @@
                   required
                 />
               </div>
-              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_captcha" value="false" />
               <button type="submit" class="btn">Submit</button>
             </form>
             <div id="quotation-form-report"></div>
@@ -328,7 +328,8 @@
               your process instantly.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link>
+              <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-sm-0 mt-5">
@@ -341,7 +342,8 @@
               products.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link>
+              <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-lg-0 mt-5">
@@ -354,7 +356,8 @@
               for arrangements.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link>
+              <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
           <div class="three-grids-columns col-lg-3 col-sm-6 mt-lg-0 mt-5">
@@ -367,7 +370,8 @@
               assurance.
             </p>
             <a class="red mt-3"
-              ><router-link to="/services">Read More</router-link> <span class="fa fa-angle-right pl-1"></span
+              ><router-link to="/services">Read More</router-link>
+              <span class="fa fa-angle-right pl-1"></span
             ></a>
           </div>
         </div>
@@ -461,7 +465,8 @@
               </li>
               <li>
                 <a
-                  ><span class="fa fa-arrow-circle-right"></span><router-link to="/services">Read More</router-link></a
+                  ><span class="fa fa-arrow-circle-right"></span
+                  ><router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>
@@ -481,7 +486,8 @@
               </li>
               <li>
                 <a
-                  ><span class="fa fa-arrow-circle-right"></span> <router-link to="/services">Read More</router-link></a
+                  ><span class="fa fa-arrow-circle-right"></span>
+                  <router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>
@@ -503,7 +509,8 @@
               </li>
               <li>
                 <a
-                  ><span class="fa fa-arrow-circle-right"></span> <router-link to="/services">Read More</router-link></a
+                  ><span class="fa fa-arrow-circle-right"></span>
+                  <router-link to="/services">Read More</router-link></a
                 >
               </li>
             </div>

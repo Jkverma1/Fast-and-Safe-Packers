@@ -40,7 +40,8 @@
     <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
       <div class="container">
         <a class="navbar-brand" href="/"
-          ><span class="fa fa-truck"></span>Fast & Safe</a
+          ><img class="navbar-logo" src="images/logo.png" alt=""
+        /></a
         >
         <button
           class="navbar-toggler"

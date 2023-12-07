@@ -11,7 +11,7 @@
             </li>
             <li class="top_li1">
               <span class="fa fa-map-marker"></span> Gausala Road, Palam Vihar
-              Extn., Krishna Chowk, Gurugram
+              Extn., Gurugram
             </li>
             <li class="top_li2">
               <span class="fa fa-clock-o"></span> Mon - Sun 24 hours

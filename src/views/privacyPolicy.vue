@@ -10,8 +10,7 @@
               ><a href="tel:+91 9817540044">+91 9817540044</a>
             </li>
             <li class="top_li1">
-              <span class="fa fa-map-marker"></span> Barthal Village,Dwarka
-              Sec-26, Delhi
+              <span class="fa fa-map-marker"></span> Gausala Road, Palam Vihar Extn., Krishna Chowk, Gurugram
             </li>
             <li class="top_li2">
               <span class="fa fa-clock-o"></span> Mon - Sun 24 hours
@@ -73,6 +72,13 @@
               <a class="nav-link"
                 ><router-link class="nav-link" to="/services"
                   >Services</router-link
+                ></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                ><router-link class="nav-link" to="/gallery"
+                  >Gallery</router-link
                 ></a
               >
             </li>
@@ -200,8 +206,7 @@
             </p>
             <br />
             <p>
-              Plot No.860, Near Government Boys School Barthal Village, Dwarka
-              Sec-26, Delhi, India
+              Plot No. 38, Gausala Road, Palam Vihar Extn., Near Bharat Hotel, Krishna Chowk, Gurugram
             </p>
             <div class="main-social-footer-29">
               <a href="#facebook" class="facebook"

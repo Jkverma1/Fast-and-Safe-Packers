@@ -10,7 +10,8 @@
               ><a href="tel:+91 9817540044">+91 9817540044</a>
             </li>
             <li class="top_li1">
-              <span class="fa fa-map-marker"></span> Gausala Road, Palam Vihar Extn., Krishna Chowk, Gurugram
+              <span class="fa fa-map-marker"></span> Gausala Road, Palam Vihar
+              Extn., Krishna Chowk, Gurugram
             </li>
             <li class="top_li2">
               <span class="fa fa-clock-o"></span> Mon - Sun 24 hours
@@ -40,9 +41,7 @@
       <div class="container">
         <a class="navbar-brand" href="/"
           ><img class="navbar-logo" src="images/logo.png" alt=""
-        /></a
-        >
-
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -104,7 +103,7 @@
   </section>
   <!-- inner banner -->
   <section class="w3l-inner-banner-main">
-    <div class="about-inner">
+    <div class="about-inner ser-1">
       <div class="container">
         <ul class="breadcrumbs-custom-path">
           <li>
@@ -113,133 +112,134 @@
               <span class="fa fa-angle-double-right" aria-hidden="true"></span
             ></a>
           </li>
-          <li class="active">About</li>
+          <li class="active">Gallery</li>
         </ul>
       </div>
     </div>
   </section>
   <!-- //covers -->
-  <!-- features-4 block -->
-  <section class="w3l-index1" id="about">
-    <div class="calltoaction-20 py-5 editContent">
+  <section class="w3l-features-8">
+    <!-- /features -->
+    <div class="features py-5" id="services">
       <div class="container py-md-3">
         <div class="heading text-center mx-auto">
-          <h3 class="head">About Us</h3>
+          <h3 class="head">Our Gallery</h3>
           <p class="my-3 head">
-            Fast and Safe Cargo Movers offers both neighbourhood home moving
-            assistance, just as significant distance pressing and moving
-            administrations for a wide range of family merchandise, office
-            products and other business and mechanical products.
-          </p>
-        </div>
-        <div class="calltoaction-20-content row mt-5 pt-3">
-          <div class="column ccont-left col-lg-6">
-            <img src="images/g9.jpg" class="img-responsive" alt="" />
-          </div>
-
-          <div
-            class="column center-align-self col-lg-6 mt-lg-0 mt-4 pl-lg-5 pl-3"
-          >
-            <h5 class="editContent">Safe Domestic Shifting</h5>
-            <p class="more-gap editContent">
-              Fast and Safe Cargo Movers offers both neighbourhood home
-              moving assistance, just as significant distance pressing and
-              moving administrations for a wide range of family merchandise,
-              office products and other business and mechanical products.
-            </p>
-            <li>
-              <span class="fa fa-thumbs-o-up"></span> We use ecofriendly
-              materials only
-            </li>
-            <li>
-              <span class="fa fa-thumbs-o-up"></span> High Professional &
-              Ethical Standards
-            </li>
-            <li>
-              <span class="fa fa-thumbs-o-up"></span> Strive for Continuous
-              Process Improvement
-            </li>
-            <li>
-              <span class="fa fa-thumbs-o-up"></span> Exceeding the expectations
-              of our Clients
-            </li>
-            <a class="theme-button btn mt-4"
-              ><router-link class="text-white" to="/services"
-                >View Our Services</router-link
-              ></a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- features-4 block -->
-  <section class="w3l-features-7">
-    <!-- /features -->
-    <div class="features py-5" id="features">
-      <div class="container py-md-3 my-md-4">
-        <div class="heading text-center mx-auto">
-          <h3 class="head">Why Choose Us</h3>
-          <p class="my-3 head">
-            We Assure Shift, is an online search portal for finding professional
-            and reliable relocation service providers. We act as a connecting
-            link between customers having packing, moving, logistics, or storage
-            needs with companies near your location providing those at genuine
-            rates. We have listed and arranged all relocation companies for your
-            convenience according to cheap and best service providers.
+            we provide packers movers service with the various services, for
+            example, packing and moving, warehousing, storage, unloading,
+            loading and the last stage that is emptying of family unit things
+            just to make you alright with door to door Delivery.
           </p>
         </div>
 
-        <div class="fea-gd-vv row mt-5 pt-3">
-          <div class="feature-gd-left col-lg-4 pr-lg-5 pr-3">
-            <h4>Why Packers & Movers?</h4>
-            <h6>Transporting-Save time & money</h6>
-            <p>
-              We offer really quality service with standard packing material,
-              logistics, and professionals. But as in the rush of search engine
-              ranking many quality service providers can't reach you. Also it's
-              hard to get customer feedback, rating and overview of all trusted
-              companies at one place. There are a lot more problem people face
-              when looking for a reliable packers and movers.
-            </p>
+        <div class="fea-gd-vv text-center row mt-5 pt-3">
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/1.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
           </div>
-          <div class="feature-gd-right row col-lg-8 mt-lg-0 mt-5">
-            <div class="float-lt feature-gd col-sm-6">
-              <div class="icon">
-                <span class="fa fa-file-text-o" aria-hidden="true"></span>
-              </div>
-              <div class="icon-info">
-                <h5>Art of Warehouse</h5>
-                <p>Safe Storage Solutions</p>
-              </div>
-            </div>
-            <div class="float-mid feature-gd col-sm-6">
-              <div class="icon">
-                <span class="fa fa-laptop" aria-hidden="true"></span>
-              </div>
-              <div class="icon-info">
-                <h5>Safe Storage Solutions</h5>
-                <p>Latest Packaging Materials</p>
-              </div>
-            </div>
-            <div class="float-rt feature-gd col-sm-6">
-              <div class="icon">
-                <span class="fa fa-clone" aria-hidden="true"></span>
-              </div>
-              <div class="icon-info">
-                <h5>Latest Packaging Materials</h5>
-                <p>Quickest Service by Road</p>
-              </div>
-            </div>
-            <div class="float-lt feature-gd col-sm-6">
-              <div class="icon">
-                <span class="fa fa-bullseye" aria-hidden="true"></span>
-              </div>
-              <div class="icon-info">
-                <h5>Quickest Service by Road</h5>
-                <p>Free Domestic Shipping</p>
-              </div>
-            </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/2.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/3.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/4.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/5.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/6.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/7.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/8.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/9.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/10.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/11.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/12.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/13.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/14.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/15.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/16.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/17.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
+          </div>
+          <div class="gallery-img float-top col-lg-4 col-md-6">
+            <a
+              ><img src="images/gallery/18.jpg" class="img-responsive" alt=""
+            /></a>
+            <div class="float-lt feature-gd"></div>
           </div>
         </div>
       </div>
@@ -263,7 +263,8 @@
             </p>
             <br />
             <p>
-              Plot No. 38, Gausala Road, Palam Vihar Extn., Near Bharat Hotel, Krishna Chowk, Gurugram
+              Plot No. 38, Gausala Road, Palam Vihar Extn., Near Bharat Hotel,
+              Krishna Chowk, Gurugram
             </p>
             <div class="main-social-footer-29">
               <a href="#facebook" class="facebook"
@@ -325,7 +326,7 @@
         </div>
         <div class="d-grid grid-col-2 bottom-copies">
           <p class="copy-footer-29">
-            © 2022 Packers. All rights reserved | Designed by
+            © 2020 Packers. All rights reserved | Designed by
             <a href="https://jatinsoni.in">Jatin Kumar</a>
           </p>
           <ul class="list-btm-29">
@@ -353,3 +354,14 @@
     </button>
   </section>
 </template>
+
+<style>
+.gallery-img {
+  margin-bottom: 40px;
+}
+.gallery-img img {
+  height: 255px;
+  width: 100%;
+  overflow: hidden;
+}
+</style>

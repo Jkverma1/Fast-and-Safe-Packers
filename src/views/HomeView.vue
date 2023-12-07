@@ -10,8 +10,7 @@
               ><a href="tel:+91 9817540044">+91 9817540044</a>
             </li>
             <li class="top_li1">
-              <span class="fa fa-map-marker"></span> Barthal Village,Dwarka
-              Sec-26, Delhi
+              <span class="fa fa-map-marker"></span> Gausala Road, Palam Vihar Extn., Krishna Chowk, Gurugram
             </li>
             <li class="top_li2">
               <span class="fa fa-clock-o"></span> Mon - Sun 24 hours
@@ -77,6 +76,13 @@
             </li>
             <li class="nav-item">
               <a class="nav-link"
+                ><router-link class="nav-link" to="/gallery"
+                  >Gallery</router-link
+                ></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/contact"
                   >Contact</router-link
                 ></a
@@ -104,7 +110,7 @@
 
             <form
               id="quotation-form"
-              action="https://formsubmit.co/fastandsafepackersmoversggn@gmail.com"
+              action="https://formsubmit.co/Fastandsafecargomoversncr@gamil.com"
               method="POST"
             >
               <div class="">
@@ -210,7 +216,7 @@
           <div class="cwp4-text col-lg-6">
             <h3>Explore The Freight Service</h3>
             <p>
-              Fast and Safe Packers & Movers is more than logistics. Look at
+              Fast and Safe Cargo Movers is more than logistics. Look at
               moving rates and documents from three of the best and record
               checked packers and movers for safe, trouble free Household
               merchandise packing and moving administrations in India.
@@ -536,8 +542,7 @@
             </p>
             <br />
             <p>
-              Plot No.860, Near Government Boys School Barthal Village, Dwarka
-              Sec-26, Delhi, India
+              Plot No. 38, Gausala Road, Palam Vihar Extn., Near Bharat Hotel, Krishna Chowk, Gurugram
             </p>
             <div class="main-social-footer-29">
               <a href="#facebook" class="facebook"

@@ -10,8 +10,7 @@
               ><a href="tel:+91 9817540044">+91 9817540044</a>
             </li>
             <li class="top_li1">
-              <span class="fa fa-map-marker"></span> Barthal Village,Dwarka
-              Sec-26, Delhi
+              <span class="fa fa-map-marker"></span> Gausala Road, Palam Vihar Extn., Krishna Chowk, Gurugram
             </li>
             <li class="top_li2">
               <span class="fa fa-clock-o"></span> Mon - Sun 24 hours
@@ -79,6 +78,13 @@
             </li>
             <li class="nav-item">
               <a class="nav-link"
+                ><router-link class="nav-link" to="/gallery"
+                  >Gallery</router-link
+                ></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
                 ><router-link class="nav-link" to="/contact"
                   >Contact</router-link
                 ></a
@@ -132,7 +138,7 @@
           <!-- contact form -->
           <div class="contacts12-main col-lg-7 pr-lg-5 pr-3">
             <form
-              action="https://formsubmit.co/fastandsafepackersmoversggn@gmail.com"
+              action="https://formsubmit.co/Fastandsafecargomoversncr@gamil.com"
               method="POST"
               class="main-input"
             >
@@ -201,7 +207,7 @@
                   <h4>Email</h4>
                   <a href="mailto:info@example.com">
                     <p class="contact-text-sub">
-                      fastandsafepackersmoversggn@gmail.com
+                      Fastandsafecargomoversncr@gamil.com
                     </p>
                   </a>
                 </div>
@@ -257,8 +263,7 @@
             </p>
             <br />
             <p>
-              Plot No.860, Near Government Boys School Barthal Village, Dwarka
-              Sec-26, Delhi, India
+              Plot No. 38, Gausala Road, Palam Vihar Extn., Near Bharat Hotel, Krishna Chowk, Gurugram
             </p>
             <div class="main-social-footer-29">
               <a href="#facebook" class="facebook"

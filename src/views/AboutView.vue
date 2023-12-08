@@ -7,11 +7,11 @@
           <div class="accounts col-sm-9 col-6">
             <li class="top_li">
               <span class="fa fa-mobile"></span
-              ><a href="tel:+91 9817540044">+91 9817540044</a>
+              ><a href="tel:+917217764600">+917217764600</a>
             </li>
             <li class="top_li1">
-              <span class="fa fa-map-marker"></span> Gausala Road, Palam Vihar
-              Extn., Gurugram
+              <span class="fa fa-envelope"></span>
+              Fastandsafecargomoversncr@gamil.com
             </li>
             <li class="top_li2">
               <span class="fa fa-clock-o"></span> Mon - Sun 24 hours

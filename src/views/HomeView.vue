@@ -606,7 +606,7 @@
         <div class="d-grid grid-col-2 bottom-copies">
           <p class="copy-footer-29">
             © 2022 Packers. All rights reserved | Designed by
-            <a href="https://jatinsoni.in">Jatin Kumar</a>
+            <a href="https://jkdeveloper.netlify.app/">Jatin Kumar</a>
           </p>
           <ul class="list-btm-29">
             <li>
